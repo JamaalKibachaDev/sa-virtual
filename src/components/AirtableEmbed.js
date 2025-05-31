@@ -7,24 +7,19 @@ import { ReactComponent as AirtableLogo } from "../assets/Airtable_Logo.svg";
 
 import { GiRadarSweep } from "react-icons/gi";
 import { TbBuildingAirport } from "react-icons/tb";
-import CodeShares from "./CodeShares";
+
+import { routeHeader } from "../assets/data";
 
 const AirtableEmbed = () => {
   return (
     <>
       <div className="main-container">
         <div className="m-4">
-          <p className="text-center">
-            We serve many passengers with many different backgrounds out of our
-            two major hubs : O.R. Tambo International Airport & Cape Town
-            International Airport. <br />
-            Our joy is flying, yours is sitting back and relaxing as we bring
-            the comfort to the Virtual world. You can reserve a gate on our
-            discord server without any issues. Thank you for your time and
-            support. Good Day! <br />
-            <br />
-            CEO Signing off😎
+         {routeHeader.map(({id, description}) => (
+          <p className="text-center px-1" key={id}>
+            {description}
           </p>
+         ))}
         </div>
         <div className="routedb-header">
           <AirtableLogo className="airtable-logo my-4" />
@@ -81,7 +76,7 @@ const AirtableEmbed = () => {
         </div>
 
         <div>
-          <CodeShares />
+          {/*<CodeShares />*/}
         </div>
       </div>
     </>

@@ -1,23 +1,18 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import SAAVCarousel1 from "../assets/saav-q400-tail.jpg";
-import SAAVCarousel2 from "../assets/crj-700.jpg";
-import SAAVCarousel3 from "../assets/saav-carousel-1.jpg";
+import { homeCarousel } from "../assets/data";
+import { CarouselItem } from "react-bootstrap";
 
 const LandingCarousel = () => {
   return (
     <>
       <Carousel fade>
-        <Carousel.Item>
-          <img src={SAAVCarousel1} alt="saav-carousel-img" className="w-100" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={SAAVCarousel2} alt="saav-carousel-img" className="w-100" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={SAAVCarousel3} alt="saav-carousel-img" className="w-100" />
-        </Carousel.Item>
+        {homeCarousel.map(({ id, image, alt }) => (
+          <CarouselItem key={id} interval={2500}>
+            <img src={image} alt={alt} className="w-100" />
+          </CarouselItem>
+        ))}
       </Carousel>
     </>
   );

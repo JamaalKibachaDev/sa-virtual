@@ -2,6 +2,7 @@ import React from "react";
 import { MDBFooter, MDBContainer } from "mdb-react-ui-kit";
 
 import { FaTiktok, FaDiscord, FaYoutube } from "react-icons/fa";
+import { IoMailOpenOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -22,8 +23,16 @@ const Footer = () => {
                 </a>
 
                 <a href="/" className="text-white">
-                  <FaTiktok />
+                  <FaTiktok className="me-5"/>
                 </a>
+
+                <a href="mailto:" className="text-white">
+                  <IoMailOpenOutline className=""/>
+                </a>
+              </div>
+
+              <div className="d-flex justify-content-center m-4">
+              <iframe src="https://www.youtube.com/embed/seXXlycb6Lc?si=TjXFfW37NomOCQZT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
 
               <div className="py-4">
