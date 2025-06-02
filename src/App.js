@@ -13,6 +13,8 @@ import ApplyNow from "./pages/ApplyNow";
 import Staff from "./pages/Staff";
 import Fleet from "./pages/Fleet";
 import Ranks from "./pages/Ranks";
+
+
 import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
