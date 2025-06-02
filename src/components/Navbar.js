@@ -23,20 +23,20 @@ const NavBar = ({ onClick }) => {
     { path: "/staff", title: "Staff" },
     { path: "/fleet", title: "Fleet" },
     { path: "/hubs&dbs", title: "Hubs & Route Database" },
-    { path: "/ranks", title: "Ranks" },
-    { path: "/crewCenter", title: "Crew Center" },
+    { path: "/pilotRanks", title: "Ranks" },
+    { path: "#", title: "Crew Center" },
   ];
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container className="px-2 d-flex justify-content-between">
           <Navbar.Brand href="/">
-            <SAAVLogo width="100" height="100" className="" />
+            <SAAVLogo width="100" height="100" className=""/>
           </Navbar.Brand>
           <CiMenuBurger onClick={handleShow} className="CiMenuBurger mx-3" />
         </Container>
 
-        <Offcanvas show={show} onHide={handleClose} className="w-75">
+        <Offcanvas show={show} onHide={handleClose} className="offcanvas__nav">
           <Offcanvas.Header closeButton />
           <Offcanvas.Body>
             <Container>

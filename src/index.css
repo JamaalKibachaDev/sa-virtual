@@ -1,9 +1,0 @@
-* {
-  font-family: Cal Sans, sans-serif;
-}
-
-.accordion{
-  --bs-accordion-btn-bg: white;
-  --bs-accordion-active-bg: red;
-  --bs-accordion-button-focus-box-shadow:none;
-}

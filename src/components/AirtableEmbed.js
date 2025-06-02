@@ -16,7 +16,7 @@ const AirtableEmbed = () => {
       <div className="main-container">
         <div className="m-4">
          {routeHeader.map(({id, description}) => (
-          <p className="text-center px-1" key={id}>
+          <p className="route__description text-center px-1" key={id}>
             {description}
           </p>
          ))}

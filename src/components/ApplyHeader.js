@@ -14,10 +14,10 @@ const ApplyHeader = () => {
         <div className="text-center p-4">
           {applyHeader.map(({ id, title, description, }) => (
             <>
-            <h2 className="text-end mb-5 ">
+            <h2 className="apply__h2 text-end mb-5 ">
               {title}
             </h2>
-          <p className="text-muted">
+          <p className=" apply__p text-muted">
             {description}
           </p>
           </>
@@ -36,9 +36,9 @@ const ApplyHeader = () => {
           </div>
 
           <div className="mt-4 d-flex justify-content-evenly border-top pt-3">
-            <a href="https://community.infiniteflight.com/u/josiah_dennis/summary" className="text-decoration-none text-dark" >
+            <a href="https://community.infiniteflight.com/u/josiah_dennis/summary" className=" apply__a text-decoration-none text-dark" >
             Josiah Dennis (CEO)</a>
-            <a href="https://community.infiniteflight.com/u/lufthansa1/summary" className="text-decoration-none text-dark" >
+            <a href="https://community.infiniteflight.com/u/lufthansa1/summary" className="apply__a text-decoration-none text-dark" >
             Lufthansa1 (COO)</a>
           </div>
         </div>

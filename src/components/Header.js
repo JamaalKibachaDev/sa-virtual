@@ -12,11 +12,13 @@ const Header = () => {
       <div className="">
         <LandingCarousel />
 
-        <div className="text-center py-4">
+        <div className="text-center m-3">
           {homeHeader.map(({title, description }) => (
             <>
-              <h3>{title}</h3>
-              <p className="text-muted m-4">{description}</p>
+            <div className="card__main">
+              <h3 className="header__h3">{title}</h3>
+              <p className="header__p text-muted m-4">{description}</p>
+              </div>
             </>
           ))}
         </div>

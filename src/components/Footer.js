@@ -4,6 +4,8 @@ import { MDBFooter, MDBContainer } from "mdb-react-ui-kit";
 import { FaTiktok, FaDiscord, FaYoutube } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
 
+import './css/Footer.css';
+
 const Footer = () => {
   return (
     <>
@@ -11,14 +13,14 @@ const Footer = () => {
         <MDBFooter className="text-center text-white bg-dark bg-gradient">
           <MDBContainer className="pb-0">
             <section className="p-4">
-              <div className="fs-2">
+              <div className="fs-3">
                 <h2>Socials :</h2>
 
-                <a href="/" className="text-white">
+                <a href="//" className="text-white">
                   <FaDiscord className="me-5" />
                 </a>
 
-                <a href="/" className="text-white">
+                <a href="https://www.youtube.com/channel/UCz2OIouIHesDhlfAsLz7qDg" className="text-white">
                   <FaYoutube className="me-5" />
                 </a>
 
@@ -26,7 +28,7 @@ const Footer = () => {
                   <FaTiktok className="me-5"/>
                 </a>
 
-                <a href="mailto:" className="text-white">
+                <a href="mailto:southafricanvirtual1@gmail.com" className="text-white">
                   <IoMailOpenOutline className=""/>
                 </a>
               </div>
@@ -35,12 +37,13 @@ const Footer = () => {
               <iframe src="https://www.youtube.com/embed/seXXlycb6Lc?si=TjXFfW37NomOCQZT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
 
-              <div className="py-4">
-                <small className="text-secondary font-monospace">
+              <div className="">
+                <p className="footer__desc text-secondary">
                   Infinite Flight's South African Virtual is not affiliated with
-                  or endorsed by the real SA Airways in any way. All SAAV logos
+                  or endorsed by the real SA Airways in any way. <br/>
+                  All SAAV logos
                   are registered trademarks of South African Airways.
-                </small>
+                </p>
               </div>
             </section>
           </MDBContainer>

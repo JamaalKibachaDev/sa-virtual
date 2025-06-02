@@ -14,16 +14,12 @@ const Home = () => {
             <InfoCards />
           </div>
 
-          <div className="d-flex px-4 py-5">
-            <div>
-              <h1 className="faq-h1">FAQs</h1>
-            </div>
-            <div>
+    
               <AccordionHeader />
-            </div>
+
+
           </div>
         </div>
-      </div>
     </>
   );
 };
