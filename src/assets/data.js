@@ -1,7 +1,7 @@
 //data imports
 
 //carousel images
-import img1 from "./saav-carousel-1.jpg";
+//import img1 from "./saav-carousel-1.jpg";
 import img1_1 from "./crj-700.jpg";
 import img1_2 from "./saav-q400-tail.jpg";
 
@@ -45,7 +45,7 @@ export const homeCarousel = [
   //carouselhome
   {
     id: "2",
-    image: img1,
+    image: img4,
     category: "carousel",
     alt: "carouselImage",
   },
@@ -85,7 +85,7 @@ export const homeCards = [
     id: "7",
     title: "Ranking System 🌟",
     description:
-      "Pilots advance through ranks starting from Trainee all the way upto Senior Pilot by logging flight hours.This encourages progression and realism. Higher ranks will be granted access to advanced aircraft and events.",
+      "Pilots advance through ranks starting from Trainee all the way upto Senior Pilot by logging flight hours.This encourages progression and realism. Higher ranks will be granted access to more aircraft and events.",
   },
 ];
 
@@ -102,7 +102,7 @@ export const homeAccordion = [
     id: "9",
     title: "Crew Operations🧑‍✈️",
     description:
-      "Pilots advance through ranks starting from Trainee all the way upto Senior Pilot by logging flight hours, This encourages progression and realism. Higher ranks will be granted access to advanced aircraft and events.",
+      "At SA Virtual, our crew operations mirror real-world airline procedures — from flight planning and dispatch to scheduled routes and active ATC participation — offering our pilots an immersive, structured, and rewarding flying experience.",
     collapseId: "2",
   },
 
@@ -121,7 +121,7 @@ export const applyHeader = [
     id: "11",
     title: "VA Application",
     description:
-      "We appreciate your kind interest in applying to join our VA. Please check out the requirements before sending out your applications. If you meet them, feel free to send a PM to our CEO or COO on the Infinite Flight Community server in order to be scheduled for a pilot test🧑‍✈️",
+      "We appreciate your kind interest in applying to join our VA. Please check out the requirements before sending out your applications. If you meet them, feel free to send a PM to our CEO or COO on the Infinite Flight Community server or send us an email in order to be scheduled for a pilot test🧑‍✈️",
   },
 ];
 
@@ -136,7 +136,7 @@ export const applyRequirements = [
 
   {
     id: "13",
-    key: "IF Grading",
+    key: "IF Grade",
     value: "Grade 2 and above",
   },
 
@@ -177,7 +177,7 @@ export const staffPage = [
     id: "18",
     image: img3,
     description:
-      "On Behalf of the Crew, Welcome South African Virtual, pilots! Here you can fly a large variety of routes and aircrafts together with other SAAV pilots. Have fun!🛫",
+      "On Behalf of the Crew, Welcome to South African Virtual, pilots! Here you can fly a large variety of routes and aircrafts together with other SAAV pilots. Have fun!🛫",
     username: "Lufthansa1",
     role: "- SAAV COO",
   },
@@ -310,7 +310,7 @@ export const StaffCrewHeader = [
   {
     id: "35",
     title: "Our Staff: ",
-    description: 'Of Course we need to give some recognition to the people who make this all possible behind the scenes. Our staff are the backbone of our airline and we are grateful for their hard work and dedication 👌',
+    description: 'Of Course we need to give some recognition to the people who make this all possible behind the scenes. We are always grateful for their hard work and dedication👌:',
   }
 ]
 
@@ -319,19 +319,19 @@ export const StaffCrew = [
   {
     id: "36",
     name: "Dimitrios_TA",
-    Rank: "COR"
+    Rank: "Contracting Officer Rep"
   },
 
   {
     id: "37",
     name: "Rile",
-    Rank: "CFO"
+    Rank: "Chief Financial Officer"
   },
 
   {
     id: "38",
     name: "SynxChazz",
-    Rank: "CMO"
+    Rank: "Chief Marketing Officer"
   },
 
   {
@@ -342,7 +342,7 @@ export const StaffCrew = [
   {
     id: "40",
     name: "Cappy",
-    Rank: "HR"
+    Rank: "Human Resource"
   },
   {
     id: "41",
@@ -357,7 +357,7 @@ export const StaffCrew = [
   {
     id: "43",
     name: "Gary_Evans",
-    Rank: "RTM"
+    Rank: "Route Manager"
   },
   {
     id: "44",
@@ -387,15 +387,15 @@ export const ranksData = [
 
   {
     id: "48",
-    image:img16,
-    description: 'Senior Pilot' 
+    image:img17,
+    description: 'Captain' 
   },
 
   {
     id: "49",
-    image:img17,
-    description: 'Captain' 
-  }
+    image:img16,
+    description: 'Senior Pilot' 
+  },
 ]
 
 

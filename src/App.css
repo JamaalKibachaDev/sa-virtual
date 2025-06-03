@@ -1,6 +1,10 @@
 * {
     font-family: Familjen Grotesk, sans-serif;
   }
+
+.app-main{
+  background-color: rgb(255, 255, 255);
+}
   
   .accordion{
     --bs-accordion-btn-bg: white;

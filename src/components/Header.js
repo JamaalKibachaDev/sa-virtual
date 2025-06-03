@@ -12,7 +12,7 @@ const Header = () => {
       <div className="">
         <LandingCarousel />
 
-        <div className="text-center m-3">
+        <div className="text-center p-3">
           {homeHeader.map(({title, description }) => (
             <>
             <div className="card__main">

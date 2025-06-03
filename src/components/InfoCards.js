@@ -17,6 +17,7 @@ const InfoCards = () => {
         <div className="card__container">
         {homeCards.map(({id, title, icon, description}) => (
           <>
+
           <Card.Title className="d-flex justify-content-center p-2">
            {title}
           </Card.Title>

@@ -17,7 +17,7 @@ const ApplyHeader = () => {
             <h2 className="apply__h2 text-end mb-5 ">
               {title}
             </h2>
-          <p className=" apply__p text-muted">
+          <p className=" apply__p">
             {description}
           </p>
           </>

@@ -8,12 +8,12 @@ import './css/Fleet.css';
 const FleetDropdowns = () => {
   return (
     <>
-      <div className="">
-        <div className="m-4">
+      <div className="container">
+        <div className="p-4">
           <h3 className="text-end">SAAV Fleet</h3>
         </div>
 
-        <Accordion defaultActiveKey="0" flush >
+        <Accordion defaultActiveKey="0" flush className="pb-4" >
           {SAAVFleet.map(
             ({ id, aircraft, image, range, crzSpeed, maxAlt, capacity }) => (
               <>
